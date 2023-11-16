@@ -4,6 +4,10 @@ import { HousingLocationComponent } from '../housing-location/housing-location.c
 import { HousingLocation } from '../housing-location';
 import { HousingService } from '../housing.service';
 
+/**
+ * Remember to run json server with 'json-server --watch db.json' before 'ng serve'
+ */
+
 @Component({
   selector: 'app-home',
   standalone: true,
